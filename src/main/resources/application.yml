@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    basename: messages/messages
+    encoding: UTF-8
+    cache:
+      duration: -1
+
+configurable:
+  days:
+    workingDays:
+    - MONDAY
+    - TUESDAY
+    - WEDNESDAY
+    - THURSDAY
+    - FRIDAY

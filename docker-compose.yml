@@ -1,0 +1,4 @@
+version: '2'
+services:
+  working-day-service:
+    image: ${DOCKER_REPO_URL}/wadso/workingday-service:${DOCKER_IMAGE_VERSION}
